@@ -1,49 +1,124 @@
-body {
-
-}
-
-#banner {
+header{
+    background-color: rgb(255, 255, 251);
+    display: table;
     width: 100%;
 }
 
-.principal {
-    background: #CCCCCC;
-    padding: 30px;
+.logo-site{
+    float:left;
+    margin: 0 0 0 200px;
 }
 
-h1, p {
-    text-align: center;
+.logo-site img{
+    float:left;
+    max-width: 200px;
 }
 
-#missao {
+.logo-site h1{
+    display: inline-block;
+    margin: 50px 0 0 20px;
+}
+
+.logo-site h1 a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+	font-size: 40px;
+}
+
+nav{
+    float: right;
+    margin: 0 200px 0 150px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 60px 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+    font-family: Helvetica;
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ff0000;
+}
+
+
+
+
+
+
+
+main {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main p{
     font-size: 20px;
 }
 
-em strong {
-    color: red;
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
-
-h2{
-    text-align: center;
-}
-
-ul{
+.produtos li {
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios{
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
-#beneficios_img{
+    text-align: center;
     width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
+.produtos li:hover{
+    border-color: red;
+}
+.produtos li:active{
+    border-color: blue;
+}
+.produtos li:hover h2{
+    font-size: 34px;
+}
+.produtos h2{
+    font-size:30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+footer img{
+    width: 300px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 15px;
+	margin: 20px 0 0;
+}
+
+
 
